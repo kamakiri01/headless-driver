@@ -42,10 +42,14 @@
       "groupName": "minor dependencies"
     },
     {
-      "matchUpdateTypes": ["major"],
-      "matchPackageNames": ["aev1", "aev2", "aev3"],
-      "enabled": false,
-      "groupName": "engine-files v1 v2"
+      "matchPackageNames": ["aev1"],
+      "allowedVersions": "<2",
+      "groupName": "engine-files v1"
+    },
+    {
+      "matchPackageNames": ["aev2"],
+      "allowedVersions": "<3",
+      "groupName": "engine-files v2"
     }
   ]
 }
