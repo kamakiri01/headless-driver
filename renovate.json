@@ -43,7 +43,7 @@
     },
     {
       "matchUpdateTypes": ["major"],
-      "matchPackageNames": ["aev1", "aev2"],
+      "matchPackageNames": ["aev1", "aev2", "aev3"],
       "enabled": false,
       "groupName": "engine-files v1 v2"
     }
