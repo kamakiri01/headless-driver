@@ -19,6 +19,7 @@
   "packageRules": [
     {
       "matchPackagePatterns": ["^@akashic/"],
+      "excludePackageNames": ["@akashic/engine-files"],
       "schedule": "at any time",
       "groupName": "akashic packages",
       "automerge": false
