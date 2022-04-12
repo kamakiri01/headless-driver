@@ -43,14 +43,14 @@
       "groupName": "minor dependencies"
     },
     {
-      "matchPackageNames": ["aev1"],
-       "allowedVersions": "/^[1]+\\.[0-9]+\\.[0-9]+$/",
-      "groupName": "engine-files v1"
-    },
-    {
       "matchPackageNames": ["aev2"],
       "allowedVersions": "/^[2]+\\.[0-9]+\\.[0-9]+$/",
       "groupName": "engine-files v2"
+    },
+    {
+      "matchPackageNames": ["aev1"],
+       "allowedVersions": "/^[1]+\\.[0-9]+\\.[0-9]+$/",
+      "groupName": "engine-files v1"
     }
   ]
 }
