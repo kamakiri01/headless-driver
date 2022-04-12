@@ -43,14 +43,14 @@
       "groupName": "minor dependencies"
     },
     {
-      "matchPackageNames": ["@akashic/engine-files"],
-      "allowedVersions": "/^npm:@akashic\\/engine-files@2\\.[0-9]+\\.[0-9]+$/",
-      "groupName": "engine-files v2"
+      "matchPackageNames": ["aev1"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "engine-files v1"
     },
     {
-      "matchPackageNames": ["@akashic/engine-files"],
-      "allowedVersions": "/^npm:@akashic\\/engine-files@1\\.[0-9]+\\.[0-9]+$/",
-      "groupName": "engine-files v1"
+      "matchPackageNames": ["aev2"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "engine-files v2"
     }
   ]
 }
