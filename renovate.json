@@ -33,12 +33,12 @@
     },
     {
       "matchUpdateTypes": ["patch"],
-      "excludePackagePatterns": ["@akashic/", "eslint", "jest"],
+      "excludePackagePatterns": ["@akashic/", "eslint", "jest", "aev1", "aev2"],
       "groupName": "patch dependencies"
     },
     {
       "matchUpdateTypes": ["minor"],
-      "excludePackagePatterns": ["@akashic/", "eslint", "jest"],
+      "excludePackagePatterns": ["@akashic/", "eslint", "jest", "aev1", "aev2"],
       "groupName": "minor dependencies"
     },
     {
