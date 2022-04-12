@@ -19,7 +19,6 @@
   "packageRules": [
     {
       "matchPackagePatterns": ["^@akashic/"],
-      "excludePackagePatterns": ["aev1", "aev2"],
       "schedule": "at any time",
       "groupName": "akashic packages",
       "automerge": false
