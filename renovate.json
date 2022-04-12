@@ -44,12 +44,12 @@
     },
     {
       "matchPackageNames": ["aev1"],
-      "matchUpdateTypes": ["minor"],
+       "allowedVersions": "/^[1]+\\.[0-9]+\\.[0-9]+$/",
       "groupName": "engine-files v1"
     },
     {
       "matchPackageNames": ["aev2"],
-      "matchUpdateTypes": ["minor"],
+      "allowedVersions": "/^[2]+\\.[0-9]+\\.[0-9]+$/",
       "groupName": "engine-files v2"
     }
   ]
