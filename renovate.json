@@ -19,6 +19,7 @@
   "packageRules": [
     {
       "matchPackagePatterns": ["^@akashic/"],
+      "excludePackagePatterns": ["aev1", "aev2"],
       "schedule": "at any time",
       "groupName": "akashic packages",
       "automerge": false
@@ -43,12 +44,12 @@
     },
     {
       "matchPackageNames": ["aev1"],
-      "allowedVersions": "/^[1]+\\.[0-9]+\\.[0-9]+$/",
+      "matchUpdateTypes": ["minor"],
       "groupName": "engine-files v1"
     },
     {
       "matchPackageNames": ["aev2"],
-      "allowedVersions": "/^[2]+\\.[0-9]+\\.[0-9]+$/",
+      "matchUpdateTypes": ["minor"],
       "groupName": "engine-files v2"
     }
   ]
