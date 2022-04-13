@@ -41,7 +41,7 @@
     },
     {
       "matchPackagePatterns": ["jest"],
-      "groupName": "jest packages"
+      "groupName": "jest packagesssss"
     },
     {
       "matchUpdateTypes": ["patch"],
