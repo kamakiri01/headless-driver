@@ -18,6 +18,18 @@
   "automerge": true,
   "packageRules": [
     {
+      "matchPackageNames": ["aev1"],
+      "allowedVersions": "<2.0"
+    },
+    {
+      "matchPackageNames": ["aev2"],
+      "allowedVersions": "<3.0"
+    },
+    {
+      "matchPackageNames": ["aev3"],
+      "allowedVersions": "<4.0"
+    },
+    {
       "matchPackagePatterns": ["^@akashic/"],
       "schedule": "at any time",
       "groupName": "akashic packages",
@@ -33,29 +45,13 @@
     },
     {
       "matchUpdateTypes": ["patch"],
-      "excludePackagePatterns": ["@akashic/", "eslint", "jest", "aev1", "aev2"],
+      "excludePackagePatterns": ["@akashic/", "eslint", "jest"],
       "groupName": "patch dependencies"
     },
     {
       "matchUpdateTypes": ["minor"],
-      "excludePackagePatterns": ["@akashic/", "eslint", "jest", "aev1", "aev2"],
+      "excludePackagePatterns": ["@akashic/", "eslint", "jest"],
       "groupName": "minor dependencies"
-    },
-    {
-      "matchPackageNames": ["aev1", "aev2"],
-      "matchUpdateTypes": ["major"],
-      "enabled": false,
-      "groupName": "aev1/aev2 major"
-    },
-    {
-      "matchPackageNames": ["aev1"],
-      "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "engine-files v1"
-    },
-    {
-      "matchPackageNames": ["aev2"],
-      "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "engine-files v2"
     }
   ]
 }
