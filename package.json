@@ -36,7 +36,7 @@
     "vm2": "3.9.9"
   },
   "devDependencies": {
-    "@akashic/eslint-config": "1.1.0",
+    "@akashic/eslint-config": "1.1.1",
     "@akashic/remark-preset-lint": "0.1.2",
     "@types/get-port": "4.0.1",
     "@types/jest": "27.4.1",
